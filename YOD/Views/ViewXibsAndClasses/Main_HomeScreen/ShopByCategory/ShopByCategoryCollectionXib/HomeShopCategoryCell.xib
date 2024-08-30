@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="D-DIN-Bold.otf">
+            <string>D-DIN-Bold</string>
+        </array>
+        <array key="D-DIN.otf">
+            <string>D-DIN</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeShopCategoryCell" id="gTV-IL-0wX" customClass="HomeShopCategoryCell" customModule="YOD" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="101" height="325"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="101" height="325"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cute_kids" translatesAutoresizingMaskIntoConstraints="NO" id="eQU-AZ-NbX">
+                        <rect key="frame" x="0.0" y="10" width="101" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="80" id="Fcx-Ef-BdZ"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2S4-qv-ogF">
+                        <rect key="frame" x="0.0" y="90" width="101" height="198"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WOMEN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Q2-Uh-Yhh">
+                                <rect key="frame" x="5" y="7" width="40" height="13"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="13" id="GBN-mu-DKq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="D-DIN-Bold" family="D-DIN" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Kqy-sO-Osb">
+                                <rect key="frame" x="5" y="24" width="91" height="169"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vWg-Hv-Q5v">
+                                        <rect key="frame" x="0.0" y="0.0" width="91" height="24"/>
+                                        <fontDescription key="fontDescription" name="D-DIN" family="D-DIN" pointSize="12"/>
+                                        <state key="normal" title="KURTA &amp; KURTIES">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="82h-Y4-0f1">
+                                        <rect key="frame" x="0.0" y="29" width="65" height="24"/>
+                                        <fontDescription key="fontDescription" name="D-DIN" family="D-DIN" pointSize="12"/>
+                                        <state key="normal" title="TOPS &amp; TEES">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2h4-We-wFZ">
+                                        <rect key="frame" x="0.0" y="58" width="48" height="24"/>
+                                        <fontDescription key="fontDescription" name="D-DIN" family="D-DIN" pointSize="12"/>
+                                        <state key="normal" title="DRESSES">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nhU-Cf-C9B">
+                                        <rect key="frame" x="0.0" y="87" width="35" height="24"/>
+                                        <fontDescription key="fontDescription" name="D-DIN" family="D-DIN" pointSize="12"/>
+                                        <state key="normal" title="SHOES">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eOx-aG-1Qo">
+                                        <rect key="frame" x="0.0" y="116" width="49" height="24"/>
+                                        <fontDescription key="fontDescription" name="D-DIN" family="D-DIN" pointSize="12"/>
+                                        <state key="normal" title="WATCHES">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NL9-PL-cR3">
+                                        <rect key="frame" x="0.0" y="145" width="58" height="24"/>
+                                        <fontDescription key="fontDescription" name="D-DIN" family="D-DIN" pointSize="12"/>
+                                        <state key="normal" title="HANDBAGS">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95785610733582205" green="0.96195673153590544" blue="0.97425860413615573" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Kqy-sO-Osb" firstAttribute="leading" secondItem="0Q2-Uh-Yhh" secondAttribute="leading" id="DQz-xC-mMi"/>
+                            <constraint firstItem="0Q2-Uh-Yhh" firstAttribute="leading" secondItem="2S4-qv-ogF" secondAttribute="leading" constant="5" id="aj7-0K-ETr"/>
+                            <constraint firstItem="0Q2-Uh-Yhh" firstAttribute="top" secondItem="2S4-qv-ogF" secondAttribute="top" constant="7" id="rBq-C2-Qd8"/>
+                            <constraint firstItem="Kqy-sO-Osb" firstAttribute="top" secondItem="0Q2-Uh-Yhh" secondAttribute="bottom" constant="4" id="tvA-N0-opX"/>
+                        </constraints>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eWo-aC-vtO">
+                        <rect key="frame" x="0.0" y="288" width="101" height="37"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="37" id="JdE-VW-8A9"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="D-DIN-Bold" family="D-DIN" pointSize="12"/>
+                        <state key="normal" title="SHOP ALL &gt;">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="2S4-qv-ogF" secondAttribute="trailing" id="AwM-zu-WoV"/>
+                <constraint firstItem="eQU-AZ-NbX" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="BeN-Qj-KKn"/>
+                <constraint firstItem="eWo-aC-vtO" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Boq-g2-Ogs"/>
+                <constraint firstItem="eQU-AZ-NbX" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Fnv-DW-nAG"/>
+                <constraint firstAttribute="trailing" secondItem="eQU-AZ-NbX" secondAttribute="trailing" id="H6T-5Y-fib"/>
+                <constraint firstAttribute="bottom" secondItem="eWo-aC-vtO" secondAttribute="bottom" id="cRj-61-FJc"/>
+                <constraint firstAttribute="trailing" secondItem="eWo-aC-vtO" secondAttribute="trailing" id="crp-Ee-sV0"/>
+                <constraint firstItem="2S4-qv-ogF" firstAttribute="top" secondItem="eQU-AZ-NbX" secondAttribute="bottom" id="cyf-UF-Gn5"/>
+                <constraint firstItem="2S4-qv-ogF" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="dGH-ge-Yf0"/>
+                <constraint firstItem="eWo-aC-vtO" firstAttribute="top" secondItem="2S4-qv-ogF" secondAttribute="bottom" id="no7-q1-QaG"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="101" height="325"/>
+            <connections>
+                <outlet property="btn_ShopForAll" destination="eWo-aC-vtO" id="KrG-I4-emL"/>
+                <outlet property="btn_cloth_TypeFive" destination="eOx-aG-1Qo" id="TSp-fC-R9z"/>
+                <outlet property="btn_cloth_TypeFour" destination="nhU-Cf-C9B" id="v83-Wx-9tU"/>
+                <outlet property="btn_cloth_TypeOne" destination="vWg-Hv-Q5v" id="Qmn-Oe-7J9"/>
+                <outlet property="btn_cloth_TypeSix" destination="NL9-PL-cR3" id="QJY-ej-5Ga"/>
+                <outlet property="btn_cloth_TypeThree" destination="2h4-We-wFZ" id="i5J-eF-GCE"/>
+                <outlet property="btn_cloth_TypeTwo" destination="82h-Y4-0f1" id="Z4f-St-7Vx"/>
+                <outlet property="img_Items" destination="eQU-AZ-NbX" id="ZZe-7r-EaB"/>
+                <outlet property="lbl_Header_CategoryItem" destination="0Q2-Uh-Yhh" id="E6Z-8l-fva"/>
+            </connections>
+            <point key="canvasLocation" x="-58.399999999999999" y="199.25037481259372"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="cute_kids" width="100" height="82"/>
+    </resources>
+</document>

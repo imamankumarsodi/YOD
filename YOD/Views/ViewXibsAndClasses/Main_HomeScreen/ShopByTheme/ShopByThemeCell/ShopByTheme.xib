@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="D-DIN.otf">
+            <string>D-DIN</string>
+        </array>
+        <array key="D-DINExp.otf">
+            <string>D-DINExp</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ShopByTheme" id="gTV-IL-0wX" customClass="ShopByTheme" customModule="YOD" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="126" height="237"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="126" height="237"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="theam_cloths" translatesAutoresizingMaskIntoConstraints="NO" id="sgg-iI-r51">
+                        <rect key="frame" x="0.0" y="0.0" width="126" height="169"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Party Store:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R6w-a6-pWe">
+                        <rect key="frame" x="0.0" y="174" width="126" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="xA2-fp-xDA"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="D-DINExp" family="D-DIN Exp" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You are invited to The Best Bash in Town" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ikz-r8-cem">
+                        <rect key="frame" x="0.0" y="197" width="126" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="vP8-TP-LbO"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="D-DIN" family="D-DIN" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="R6w-a6-pWe" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="CPb-Lc-8Y4"/>
+                <constraint firstItem="R6w-a6-pWe" firstAttribute="top" secondItem="sgg-iI-r51" secondAttribute="bottom" constant="5" id="HGX-c7-zDz"/>
+                <constraint firstAttribute="trailing" secondItem="Ikz-r8-cem" secondAttribute="trailing" id="IRC-fj-EE9"/>
+                <constraint firstAttribute="trailing" secondItem="R6w-a6-pWe" secondAttribute="trailing" id="NCk-dl-YbU"/>
+                <constraint firstAttribute="trailing" secondItem="sgg-iI-r51" secondAttribute="trailing" id="UNe-sK-1L5"/>
+                <constraint firstAttribute="bottom" secondItem="Ikz-r8-cem" secondAttribute="bottom" id="YgE-Aw-2bA"/>
+                <constraint firstItem="sgg-iI-r51" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="YwB-eX-SUg"/>
+                <constraint firstItem="Ikz-r8-cem" firstAttribute="top" secondItem="R6w-a6-pWe" secondAttribute="bottom" constant="5" id="e0z-m6-E2u"/>
+                <constraint firstItem="sgg-iI-r51" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="wcp-HX-2j6"/>
+                <constraint firstItem="Ikz-r8-cem" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="zei-TW-TX6"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="126" height="237"/>
+            <connections>
+                <outlet property="img_ShopByTheme" destination="sgg-iI-r51" id="2yU-yX-liJ"/>
+                <outlet property="lbl_HeaderThemeName" destination="R6w-a6-pWe" id="ras-S3-6zO"/>
+                <outlet property="lbl_ThemeDetails" destination="Ikz-r8-cem" id="o1j-dQ-xe9"/>
+            </connections>
+            <point key="canvasLocation" x="193.59999999999999" y="228.93553223388307"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="theam_cloths" width="126" height="159"/>
+    </resources>
+</document>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="D-DIN.otf">
+            <string>D-DIN</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Brand_InFocus" id="gTV-IL-0wX" customClass="Brand_InFocus" customModule="YOD" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="149" height="241"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="149" height="241"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="proffesional_men" translatesAutoresizingMaskIntoConstraints="NO" id="LZY-Or-o7Q">
+                        <rect key="frame" x="0.0" y="0.0" width="149" height="190"/>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MKB-fC-Fvi">
+                        <rect key="frame" x="10" y="160" width="129" height="70"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="manyavar_logo" translatesAutoresizingMaskIntoConstraints="NO" id="HMv-8k-wp3">
+                                <rect key="frame" x="0.0" y="0.0" width="129" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="L7B-yA-bsA"/>
+                                </constraints>
+                            </imageView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="An All New Ethnic The Test of Time!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VOf-CL-OFX">
+                                <rect key="frame" x="10" y="38" width="109" height="22"/>
+                                <fontDescription key="fontDescription" name="D-DIN" family="D-DIN" pointSize="11"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="VOf-CL-OFX" firstAttribute="centerX" secondItem="MKB-fC-Fvi" secondAttribute="centerX" id="LlL-0O-Awv"/>
+                            <constraint firstAttribute="trailing" secondItem="HMv-8k-wp3" secondAttribute="trailing" id="Mhb-gd-Lsi"/>
+                            <constraint firstAttribute="height" constant="70" id="OOJ-yw-UzC"/>
+                            <constraint firstItem="HMv-8k-wp3" firstAttribute="top" secondItem="MKB-fC-Fvi" secondAttribute="top" id="ZKT-Rt-gdo"/>
+                            <constraint firstAttribute="trailing" secondItem="VOf-CL-OFX" secondAttribute="trailing" constant="10" id="cfz-id-iuW"/>
+                            <constraint firstItem="VOf-CL-OFX" firstAttribute="top" secondItem="HMv-8k-wp3" secondAttribute="bottom" constant="-32" id="hDE-3V-jHl"/>
+                            <constraint firstItem="VOf-CL-OFX" firstAttribute="leading" secondItem="MKB-fC-Fvi" secondAttribute="leading" constant="10" id="u9W-P2-dpH"/>
+                            <constraint firstItem="HMv-8k-wp3" firstAttribute="leading" secondItem="MKB-fC-Fvi" secondAttribute="leading" id="vsT-nV-KZS"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="LZY-Or-o7Q" secondAttribute="trailing" id="AfL-Ak-ygk"/>
+                <constraint firstItem="LZY-Or-o7Q" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="QU4-Jz-Jq0"/>
+                <constraint firstItem="LZY-Or-o7Q" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="R00-V5-nOX"/>
+                <constraint firstItem="MKB-fC-Fvi" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="hg4-qs-RjQ"/>
+                <constraint firstAttribute="trailing" secondItem="MKB-fC-Fvi" secondAttribute="trailing" constant="10" id="jPL-c9-xs5"/>
+                <constraint firstItem="MKB-fC-Fvi" firstAttribute="top" secondItem="LZY-Or-o7Q" secondAttribute="bottom" constant="-30" id="vwe-YE-1uf"/>
+                <constraint firstAttribute="bottom" secondItem="MKB-fC-Fvi" secondAttribute="bottom" constant="11" id="wGh-07-5Xj"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="149" height="241"/>
+            <connections>
+                <outlet property="img_brandFocus" destination="LZY-Or-o7Q" id="Glg-Et-LSm"/>
+                <outlet property="lbl_brand" destination="VOf-CL-OFX" id="Rje-2u-Bbc"/>
+            </connections>
+            <point key="canvasLocation" x="-7.2000000000000002" y="129.98500749625188"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="manyavar_logo" width="169" height="88"/>
+        <image name="proffesional_men" width="148" height="174"/>
+    </resources>
+</document>

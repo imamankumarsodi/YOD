@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="D-DIN.otf">
+            <string>D-DIN</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SimilarCollectionViewCell" id="gTV-IL-0wX" customClass="SimilarCollectionViewCell" customModule="YOD" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="114" height="217"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="114" height="217"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_shirt" translatesAutoresizingMaskIntoConstraints="NO" id="ZvL-mC-ANM">
+                        <rect key="frame" x="0.0" y="0.0" width="114" height="145"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="145" id="JwN-pt-9tT"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOREM IPSUM" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h2x-QG-Kj5">
+                        <rect key="frame" x="4" y="155" width="89" height="13"/>
+                        <fontDescription key="fontDescription" name="D-DIN" family="D-DIN" pointSize="13"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contrary to popular" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WWK-ZL-emX">
+                        <rect key="frame" x="4" y="173" width="89" height="11"/>
+                        <fontDescription key="fontDescription" name="D-DIN" family="D-DIN" pointSize="11"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lZk-Xn-Smw">
+                        <rect key="frame" x="4" y="189" width="89" height="12"/>
+                        <fontDescription key="fontDescription" name="D-DIN" family="D-DIN" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="lZk-Xn-Smw" firstAttribute="top" secondItem="WWK-ZL-emX" secondAttribute="bottom" constant="5" id="C1l-X5-nO9"/>
+                <constraint firstAttribute="trailing" secondItem="h2x-QG-Kj5" secondAttribute="trailing" constant="21" id="Jv2-7K-BKI"/>
+                <constraint firstItem="h2x-QG-Kj5" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="4" id="R51-qA-O1u"/>
+                <constraint firstItem="WWK-ZL-emX" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="4" id="Zzf-IA-Rem"/>
+                <constraint firstItem="h2x-QG-Kj5" firstAttribute="top" secondItem="ZvL-mC-ANM" secondAttribute="bottom" constant="10" id="bDt-SQ-Omw"/>
+                <constraint firstAttribute="bottom" secondItem="lZk-Xn-Smw" secondAttribute="bottom" constant="16" id="cln-8O-S6G"/>
+                <constraint firstAttribute="trailing" secondItem="ZvL-mC-ANM" secondAttribute="trailing" id="fzw-3d-Cnr"/>
+                <constraint firstItem="ZvL-mC-ANM" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="maP-bk-u2W"/>
+                <constraint firstAttribute="trailing" secondItem="WWK-ZL-emX" secondAttribute="trailing" constant="21" id="njn-Rc-sLZ"/>
+                <constraint firstItem="ZvL-mC-ANM" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="oqQ-Jg-US2"/>
+                <constraint firstAttribute="trailing" secondItem="lZk-Xn-Smw" secondAttribute="trailing" constant="21" id="qjQ-xk-D8i"/>
+                <constraint firstItem="WWK-ZL-emX" firstAttribute="top" secondItem="h2x-QG-Kj5" secondAttribute="bottom" constant="5" id="re9-cg-fzy"/>
+                <constraint firstItem="lZk-Xn-Smw" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="4" id="zxZ-df-eBv"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="363" height="339"/>
+            <connections>
+                <outlet property="imgViewContent" destination="ZvL-mC-ANM" id="qWx-Hq-oSq"/>
+                <outlet property="lblPrice" destination="lZk-Xn-Smw" id="64I-Th-SeV"/>
+            </connections>
+            <point key="canvasLocation" x="65.599999999999994" y="189.3553223388306"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="img_shirt" width="114" height="145"/>
+    </resources>
+</document>

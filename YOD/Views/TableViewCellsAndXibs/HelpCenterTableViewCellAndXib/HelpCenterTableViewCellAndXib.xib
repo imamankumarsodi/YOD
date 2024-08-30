@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="D-DIN.otf">
+            <string>D-DIN</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="HelpCenterTableViewCellAndXib" rowHeight="90.5" id="UMD-8H-7Gp" customClass="HelpCenterTableViewCellAndXib" customModule="YOD" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="402" height="96.5"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="UMD-8H-7Gp" id="EWX-j0-dOF">
+                <rect key="frame" x="0.0" y="0.0" width="402" height="96"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YsT-9h-QhH">
+                        <rect key="frame" x="10" y="10" width="47" height="75"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo_8" translatesAutoresizingMaskIntoConstraints="NO" id="BtK-IP-9bl">
+                                <rect key="frame" x="0.0" y="0.0" width="47" height="75"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="42O-6a-rgF">
+                                <rect key="frame" x="0.0" y="0.0" width="47" height="75"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="47" id="14s-DK-A1w"/>
+                            <constraint firstItem="BtK-IP-9bl" firstAttribute="top" secondItem="YsT-9h-QhH" secondAttribute="top" id="5Ce-kR-FQt"/>
+                            <constraint firstAttribute="trailing" secondItem="BtK-IP-9bl" secondAttribute="trailing" id="Hyu-Mh-BjI"/>
+                            <constraint firstAttribute="trailing" secondItem="42O-6a-rgF" secondAttribute="trailing" id="P8j-pi-bDA"/>
+                            <constraint firstItem="42O-6a-rgF" firstAttribute="top" secondItem="YsT-9h-QhH" secondAttribute="top" id="eZ8-dJ-wla"/>
+                            <constraint firstAttribute="bottom" secondItem="42O-6a-rgF" secondAttribute="bottom" id="gl2-I3-LtQ"/>
+                            <constraint firstAttribute="height" constant="75" id="oen-Bq-oFx"/>
+                            <constraint firstItem="BtK-IP-9bl" firstAttribute="leading" secondItem="YsT-9h-QhH" secondAttribute="leading" id="pIT-qa-M3O"/>
+                            <constraint firstAttribute="bottom" secondItem="BtK-IP-9bl" secondAttribute="bottom" id="wRb-w2-rjU"/>
+                            <constraint firstItem="42O-6a-rgF" firstAttribute="leading" secondItem="YsT-9h-QhH" secondAttribute="leading" id="wtr-09-YeP"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hcN-8O-Kre">
+                        <rect key="frame" x="67" y="10" width="320" height="26"/>
+                        <string key="text">LOREM IPSUM
+aljsfajsdl</string>
+                        <fontDescription key="fontDescription" name="D-DIN" family="D-DIN" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rs1560.44" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y5f-VO-MmR">
+                        <rect key="frame" x="72" y="70" width="61" height="15"/>
+                        <fontDescription key="fontDescription" name="D-DIN" family="D-DIN" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Qty:" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WNo-QZ-otB">
+                        <rect key="frame" x="363" y="69" width="24" height="17"/>
+                        <fontDescription key="fontDescription" name="D-DIN" family="D-DIN" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="hcN-8O-Kre" firstAttribute="top" secondItem="EWX-j0-dOF" secondAttribute="top" constant="10" id="8cB-Gt-tYS"/>
+                    <constraint firstItem="YsT-9h-QhH" firstAttribute="leading" secondItem="EWX-j0-dOF" secondAttribute="leading" constant="10" id="AkY-K5-R4E"/>
+                    <constraint firstItem="WNo-QZ-otB" firstAttribute="centerY" secondItem="Y5f-VO-MmR" secondAttribute="centerY" id="OZv-2W-B87"/>
+                    <constraint firstItem="Y5f-VO-MmR" firstAttribute="bottom" secondItem="YsT-9h-QhH" secondAttribute="bottom" id="QvX-Ay-gQM"/>
+                    <constraint firstAttribute="trailing" secondItem="WNo-QZ-otB" secondAttribute="trailing" constant="15" id="Tc2-ub-F3T"/>
+                    <constraint firstAttribute="bottom" secondItem="WNo-QZ-otB" secondAttribute="bottom" constant="10" id="TcR-5f-JSg"/>
+                    <constraint firstItem="Y5f-VO-MmR" firstAttribute="leading" secondItem="YsT-9h-QhH" secondAttribute="trailing" constant="15" id="VsO-B2-vxO"/>
+                    <constraint firstItem="hcN-8O-Kre" firstAttribute="leading" secondItem="YsT-9h-QhH" secondAttribute="trailing" constant="10" id="XWt-oP-7LA"/>
+                    <constraint firstItem="YsT-9h-QhH" firstAttribute="top" secondItem="EWX-j0-dOF" secondAttribute="top" constant="10" id="XsZ-tl-Bce"/>
+                    <constraint firstAttribute="trailing" secondItem="hcN-8O-Kre" secondAttribute="trailing" constant="15" id="wE2-PY-wXx"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="QaF-6m-0JS"/>
+            <connections>
+                <outlet property="lblDeliveryDate" destination="WNo-QZ-otB" id="TiQ-7L-ULv"/>
+                <outlet property="lblDetails" destination="hcN-8O-Kre" id="9C2-15-wVA"/>
+            </connections>
+            <point key="canvasLocation" x="129.59999999999999" y="118.74062968515743"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="photo_8" width="47" height="74"/>
+    </resources>
+</document>
